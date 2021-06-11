@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AcquaintanceWithAndroid</string>
+    <string name="edit_text_heading">My first application</string>
+    <string name="edit_text_hint">Enter your text</string>
+    <string name="button_example_text">Button example</string>
+    <string name="switch_text">This is Switch)</string>
+    <string name="checkbox_text">This is CheckBox</string>
+    <string name="text">Input your text</string>
+    <string name="personname">Input your PersonName</string>
+    <string name="phone">Input your phone</string>
+    <string name="number">Input your number</string>
+    <string name="password">Input your Password</string>
+    <string name="emailaddress">Input your EmailAddress</string>
+    <string name="label_activity_two">Activity Two</string>
+</resources>

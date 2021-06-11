@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_view_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/edit_text_heading"
+        android:textColor="@color/custom_from_heading"
+        android:textSize="32sp" />
+
+    <EditText
+        android:id="@+id/edit_text_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:hint="@string/edit_text_hint"
+        android:textColor="@color/custom_from_heading"
+        android:textSize="32sp"
+        android:inputType="text"
+        android:autofillHints="@string/edit_text_hint" />
+
+    <Button
+        android:id="@+id/btn_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="@string/button_example_text"
+        android:textColor="@color/custom_from_button"
+        tools:targetApi="lollipop" />
+
+    <Switch
+        android:id="@+id/switch_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:checked="true"
+        android:text="@string/switch_text"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <CheckBox
+        android:id="@+id/checkbox_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/checkbox_text"
+        android:textColor="@color/custom_from_checkbox"
+        android:textSize="20sp" />
+
+    <ToggleButton
+        android:id="@+id/toggle_btn_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/teal_200"
+        android:textSize="20sp"
+        tools:targetApi="lollipop" />
+
+
+</LinearLayout>
