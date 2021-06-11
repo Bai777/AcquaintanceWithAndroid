@@ -69,5 +69,4 @@
         android:textSize="20sp"
         tools:targetApi="lollipop" />
 
-
 </LinearLayout>
